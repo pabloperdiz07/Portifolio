@@ -334,9 +334,14 @@ a {
         width: 100%;
     }
 
+    .box {
+        width: 100%;
+        min-width: 348px;
+    }
+
     .box2 {
         margin: 16px auto;
-        min-width: 278px;
+        min-width: 248px;
     }
 
     .post {
