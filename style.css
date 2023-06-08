@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #22212C;
+    background-color: #ffffff;
 }
 
 #portfolio {
@@ -319,9 +319,6 @@ a {
     }
 
     .post img {
-        width: 126px;
-        height: 126px;
-        border-radius: 50%;
         margin: 0 0 32px 0;
     }
 }
@@ -330,16 +327,11 @@ a {
 
     #portfolio {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .sidebar {
         width: 100%;
-    }
-
-    .box {
-        margin: 16px auto;
-        width: 100%;
-        min-width: 348px;
     }
 
     .box2 {
